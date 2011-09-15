@@ -1,0 +1,18 @@
+; ~/.gitconfig                           vi:syntax=gitconfig:
+[branch]
+    autosetupmerge = true
+[user]
+    name = Saverio Trioni
+    email = saverio.trioni@gmail.com
+[color]
+	ui = auto
+[grep]
+    lineNumber = true
+[url "git://github.com/rewritten/"]
+    insteadof = github:
+[core]
+    editor = vim
+[merge]
+    tool = vimdiff
+[push]
+    default = current
